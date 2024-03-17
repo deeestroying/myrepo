@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>In Class Assignment 4</title>
+</head>
+<body>
+    <header class="structural">
+        <h1>IN CLASS TASK 4</h1>
+    </header>
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="structural">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <fieldset>
+                <legend>What section of PROG1245 are you in?</legend>
+                <div>
+                    <input type="radio" id="sec4" name="sec" value="4">
+                    <label for="sec4">Section 4</label>
+                </div>
+                <div>
+                    <input type="radio" id="sec5" name="sec" value="5">
+                    <label for="sec5">Section 5</label>
+                </div>
+                <div>
+                    <input type="radio" id="sec8" name="sec" value="8">
+                    <label for="sec8">Section 8</label>
+                </div>
+            </fieldset>
+            <div>
+                <label for="help">What do you need help with?</label>
+                <select id="help" name="help">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Both">Both (HTML & CSS)</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="human" name="human" value="true">
+                <label for="human">I am a human</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+    
+    <aside class="structural">
+        <h2>Aside Heading</h2>
+        <ul>
+            <li><a href="https://google.com">Link to google</a></li>
+            <li><a href="https://youtube.com">Link to youtube</a></li>
+        </ul>
+    </aside>
+   
+    <footer class="structural"> 
+        <p><em>This is the footer</em></p>
+        <p>&copy; Arunav 2024</p>
+    </footer>
+</body>
+</html>

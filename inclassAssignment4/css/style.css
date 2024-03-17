@@ -1,0 +1,143 @@
+/* Created by: [Arunav Das]
+   Student Number: [8980570] */
+   body {
+    font: 16px Arial, sans-serif;
+    background-color: hsla(210, 50%, 80%, 1);
+    height: 100vh;
+    width: 99vw;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 35px;
+}
+
+h2 {
+    color: #f00; 
+    font-size: 1.2em; 
+}
+
+main {
+    width: 63%;
+    float: left;
+}
+
+aside {
+    
+    width:29%;
+    float: right;
+}
+aside ul a:hover{
+    color: aliceblue;
+}
+footer {
+    clear: both;
+}
+
+.structural {
+    padding: 0.5%;
+    border: 2px solid black;
+    margin: 1%;
+}
+
+#para1 {
+    color: rgb(255, 72, 0);
+}
+
+#para2 {
+    color: rgb(68, 0, 100);
+}
+
+header {
+    background-color: hsl(0, 100%, 90%);
+}
+
+main {
+    background-color: hsl(100, 100%, 90%);
+}
+
+aside {
+    background-color: hsl(200, 70%, 70%);
+}
+
+footer {
+    background-color: hsl(60, 100%, 50%);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    border: 2px solid indigo;
+    color: indigo;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    background-color: cornsilk;
+}
+
+nav li a:hover {
+    color: cornsilk;
+    background-color: indigo;
+    border-color: cornsilk;
+}
+form {
+    border: 5px dashed #f00;
+    padding: 5px;
+}
+
+main, aside {
+    height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 1em;
+    width: 1em;
+}
+
+select,
+option,
+label,
+legend,
+input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+
+footer p {
+    font-size: 0.8em;
+
+}
+
